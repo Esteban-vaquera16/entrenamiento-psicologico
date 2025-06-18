@@ -13,7 +13,7 @@ BLANCO: #d8f3dc
 }
 body{
     background-color: #61a5c2;
-    background-image: url(/herramientas/imagen-fondo.png);
+    background-image: url(herramientas/imagen-fondo.png);
 }
 main{
     display: flex;
