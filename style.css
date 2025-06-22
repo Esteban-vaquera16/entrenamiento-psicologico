@@ -19,6 +19,7 @@ main{
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 20px;
 }
 h1{
     color: #FFFFFF;
@@ -100,6 +101,48 @@ p{
     color: black;
     border-radius: 5px;
 }
+.disponibilidad-idiomas {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #0c3b5a;
+    font-family: "Source Sans 3", sans-serif;
+}
+.espana, .francia, .ingles{
+    width: 24px;
+    height: auto;
+}
+.logos-ventas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logos-ventas a img{
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.logos-ventas a img:hover{
+        transform: translateY(-8px); 
+}
+.testimonios {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #d8f3dc;
+    border-radius: 10px;
+    text-align: center;
+}
+.testimonios h3 {
+    color: #0c3b5a;
+    margin-bottom: 10px;
+}
+.testimonios blockquote {
+    font-style: italic;
+    margin: 10px auto;
+    color: #333;
+}
+
 /*FOOTER*/
 footer{
     background-color:#0c3b5a ;
@@ -148,8 +191,9 @@ footer{
 .lista-redes a img{
     width: 50px;
     height: auto;
+    transition: transform 0.3s ease
 }
 .lista-redes a img:hover{
-    background-color: #ccdbfd;
     border-radius: 10%;
+    transform: translateY(-8px); 
 }
